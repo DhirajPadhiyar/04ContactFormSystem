@@ -17,7 +17,7 @@ namespace _04ContactFormSystem.Controllers
             return View();
         }
 
-        [HttpGet]
+        [HttpGet]//For fetching the form
         public IActionResult ContactPage()
         {
             return View();
