@@ -10,5 +10,6 @@ namespace _04ContactFormSystem.Models
         public string Email { get; set; }
         [Required]
         public string Message { get; set; }
+        public string PhoneNumber { get; set; }
     }
 }

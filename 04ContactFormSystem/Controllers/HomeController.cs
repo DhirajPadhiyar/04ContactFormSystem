@@ -35,6 +35,7 @@ namespace _04ContactFormSystem.Controllers
             ViewBag.Name = model.Name;
             ViewBag.Email = model.Email;
             ViewBag.MessageContent = model.Message;
+            ViewBag.PhoneNumber = model.PhoneNumber;
 
             ModelState.Clear(); // Clear the form after successful submission
             return View(new ContactModel());
